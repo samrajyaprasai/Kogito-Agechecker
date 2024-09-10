@@ -1,0 +1,24 @@
+###
+POST http://localhost:8080/persons
+Content-Type: application/json
+
+{
+  "person" : {
+    "name" : "john",
+    "age" : 20
+  }
+}
+
+<> 2024-09-10T191321.201.json
+
+###
+GET http://localhost:8080/persons/e69d3c6d-72c1-4706-a17e-9440cf3d459d/tasks
+
+<> 2024-09-10T191123.200.json
+
+###
+POST http://localhost:8080/persons/231a6c45-db3f-41a2-aa22-d4e749a57891/ChildrenHandling/64636046-4e63-4228-82f6-379332d55093/phases/complete?user=unknown&group=
+Accept: application/json
+Content-Type: application/json
+
+{}
